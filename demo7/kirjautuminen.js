@@ -6,3 +6,7 @@ if(kirjautunut === 'kylla'){
     document.getElementById('tervetulo_teksti').textContent += ' Samueli!'; 
 }
 }
+
+function kirjaudu(){
+    localStorage.setItem("nimi", "Samueli");
+}
